@@ -1,0 +1,1 @@
+height=float(input("Height in meters: ")); weight=float(input("Weight in kg: ")); bmi=weight/(height**2); print(f"BMI: {bmi:.2f}")

@@ -1,0 +1,1 @@
+import java.util.*; public class Main { public static void main(String[] args){ Scanner s=new Scanner(System.in); int n=new Random().nextInt(100)+1; int g=0; System.out.println("Guess 1-100"); while(g!=n){g=s.nextInt(); if(g<n)System.out.println("Higher"); else if(g>n)System.out.println("Lower"); else System.out.println("Correct!");} } }

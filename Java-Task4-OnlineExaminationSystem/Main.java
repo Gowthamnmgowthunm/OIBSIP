@@ -1,0 +1,1 @@
+import java.util.*; public class Main { public static void main(String[] args){ System.out.println("OIBSIP Java Project"); System.out.println("Project: Online Examination System"); } }

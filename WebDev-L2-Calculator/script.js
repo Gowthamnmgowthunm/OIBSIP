@@ -1,0 +1,1 @@
+let exp='';function press(x){if(x==='C'){exp='';}else if(x==='='){try{exp=String(Function('return '+exp)())}catch{exp='Error'}}else exp+=x;document.getElementById('display').value=exp}

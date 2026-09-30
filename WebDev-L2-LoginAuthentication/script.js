@@ -1,0 +1,1 @@
+function register(){let e=newEmail.value,p=newPassword.value;if(!e||!p)return msg.textContent='Enter all fields';localStorage.user=JSON.stringify({e,p});msg.textContent='Registration successful'}function login(){let u=JSON.parse(localStorage.user||'null');msg.textContent=u&&u.e===email.value&&u.p===password.value?'Login successful':'Invalid credentials'}
